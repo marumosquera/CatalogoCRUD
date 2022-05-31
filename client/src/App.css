@@ -1,0 +1,230 @@
+.App { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.form {
+  background-color: #15172b;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  height: auto;
+  padding: 2rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  height: auto;
+  margin-top: 2.5rem;
+}
+
+.title {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.subtitle {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.crud{
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.input-container {
+  height: 5rem;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+
+.input {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 3rem;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: auto;
+}
+
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px);
+}
+
+.inputupdate{
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  width: 12rem;
+  margin: 0.3rem;
+  height: 2.3rem;
+}
+
+.product-container{
+  background-color: #1E1B33;
+  border: #161423 1rem solid;
+  margin: 1.5rem;
+  border-radius: 4rem;
+}
+
+.inside-container{
+  margin-top: 1.5rem;
+}
+.inside-container .delete{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row-updates-form{
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: auto;
+  height: auto;
+  font-size: 2rem;
+  padding-left: 1rem;
+  margin: 1rem;
+}
+
+
+h3{
+  font-size: 2rem;
+}
+button {
+  width: auto;
+  height: auto;
+  margin-top: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.Products {
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.Product {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+}
+
+.input-img img{
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin: 2rem;
+  outline: 0;
+  text-align: center;
+  width: auto;
+  
+}
+
+.submit:active {
+  background-color: #06b;
+}
+
+.submitUpdate{
+  background-color: #08d;
+  border-radius: 0.5rem;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  text-align: center;
+  width: auto;
+  margin: 0.7rem;
+  height: 2rem;
+}
+
+.delete button{
+  width: auto;
+  border-radius: 50%;
+}
+
+.crud .description{
+  display: block;
+  overflow-y:scroll;
+  width: 12rem;
+  height: 3rem;
+  background-color: #161423;
+  margin: auto;
+}
+
+i{
+  padding: 0.2em;
+}
+
+/* MEDIA QUERIES FOR TABLES */
+@media only screen and (max-width: 800px) {
+  .input-img img {
+      display: none;
+  }
+
+  .input-container {
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+  }
+
+  h2{
+    display: flex;
+    justify-content: center;
+  }
+
+}
