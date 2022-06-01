@@ -2,6 +2,15 @@
 
 Catalogo de productos utilizando CRUD
 
+![image](https://user-images.githubusercontent.com/49719332/171303991-0d05dfe3-176b-4200-a57f-3c5f9b99f80b.png)
+
+![image](https://user-images.githubusercontent.com/49719332/171304118-ed7c29cc-52f9-4ae7-8f7a-19005c26c5e8.png)
+
+![image](https://user-images.githubusercontent.com/49719332/171304150-a36f5b06-0c12-41c1-9f06-d67fe6271a6a.png)
+
+![image](https://user-images.githubusercontent.com/49719332/171304159-58640a4b-0a61-42b1-800b-a73e61ac99fa.png)
+
+
 npm intall cors express multer mysql2 request
 
 node index.js
@@ -36,5 +45,7 @@ You may also see any lint errors in the console.
 - web-vitals@2.1.4
 
 yarn run bootstrap
+
 yarn add axios
+
 yarn start
